@@ -1,0 +1,105 @@
+/* セクション共通 */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+/* メインビジュアル */
+.product-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 5%;
+    background-color: #f8fbff; /* 爽やかな薄い青 */
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #0056b3;
+    margin: 0.5rem 0;
+}
+
+/* ボタン */
+.cta-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #bf0000; /* 楽天・情熱の赤 */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    background-color: #e60000;
+}
+
+/* 3つの特徴カード */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* 施工ステップ */
+.usage-steps {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.step-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step-item {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.step-num {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: -20px;
+}
+
+.step-item h4 {
+    position: relative;
+    z-index: 1;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+/* 下部CTA */
+.bottom-cta {
+    text-align: center;
+    padding: 100px 5%;
+    background: linear-gradient(135deg, #0056b3 0%, #00aaff 100%);
+    color: white;
+}
+
+.bottom-cta h2 { margin-bottom: 20px; }
+.bottom-cta .cta-button.big {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    background-color: #ff9900; /* オレンジのアクセント */
+}
